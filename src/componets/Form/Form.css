@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+form label {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+form label span {
+    color: red;
+}
+
+form label input {
+    margin-left: 100px;
+}
+
+form button {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    font-weight: 700;
+    font-size: 20px;
+    align-self: flex-end;
+}
